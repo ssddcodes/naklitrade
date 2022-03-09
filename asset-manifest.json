@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/naklitrade/static/css/main.0bda1cf3.chunk.css",
-    "main.js": "/naklitrade/static/js/main.756aba6c.chunk.js",
-    "main.js.map": "/naklitrade/static/js/main.756aba6c.chunk.js.map",
-    "runtime-main.js": "/naklitrade/static/js/runtime-main.e58d30bb.js",
-    "runtime-main.js.map": "/naklitrade/static/js/runtime-main.e58d30bb.js.map",
-    "static/js/2.58aaed71.chunk.js": "/naklitrade/static/js/2.58aaed71.chunk.js",
-    "static/js/2.58aaed71.chunk.js.map": "/naklitrade/static/js/2.58aaed71.chunk.js.map",
-    "index.html": "/naklitrade/index.html",
-    "precache-manifest.30bd5f134e1b45583567ca58447f30db.js": "/naklitrade/precache-manifest.30bd5f134e1b45583567ca58447f30db.js",
-    "service-worker.js": "/naklitrade/service-worker.js",
-    "static/css/main.0bda1cf3.chunk.css.map": "/naklitrade/static/css/main.0bda1cf3.chunk.css.map",
-    "static/js/2.58aaed71.chunk.js.LICENSE.txt": "/naklitrade/static/js/2.58aaed71.chunk.js.LICENSE.txt",
-    "static/media/fonts.css": "/naklitrade/static/media/IBMPlexSans-Regular.c02b4dc6.ttf",
-    "static/media/facebook.9219fa09.svg": "/naklitrade/static/media/facebook.9219fa09.svg",
-    "static/media/github.02591dd9.svg": "/naklitrade/static/media/github.02591dd9.svg",
-    "static/media/twitter.231d9578.svg": "/naklitrade/static/media/twitter.231d9578.svg"
+    "main.css": "/static/css/main.e9524a80.chunk.css",
+    "main.js": "/static/js/main.567129aa.chunk.js",
+    "main.js.map": "/static/js/main.567129aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05172a96.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05172a96.js.map",
+    "static/js/2.58aaed71.chunk.js": "/static/js/2.58aaed71.chunk.js",
+    "static/js/2.58aaed71.chunk.js.map": "/static/js/2.58aaed71.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f16fb331b92ca9c930e4c7136feded6a.js": "/precache-manifest.f16fb331b92ca9c930e4c7136feded6a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e9524a80.chunk.css.map": "/static/css/main.e9524a80.chunk.css.map",
+    "static/js/2.58aaed71.chunk.js.LICENSE.txt": "/static/js/2.58aaed71.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/IBMPlexSans-Regular.c02b4dc6.ttf",
+    "static/media/facebook.9219fa09.svg": "/static/media/facebook.9219fa09.svg",
+    "static/media/github.02591dd9.svg": "/static/media/github.02591dd9.svg",
+    "static/media/twitter.231d9578.svg": "/static/media/twitter.231d9578.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e58d30bb.js",
+    "static/js/runtime-main.05172a96.js",
     "static/js/2.58aaed71.chunk.js",
-    "static/css/main.0bda1cf3.chunk.css",
-    "static/js/main.756aba6c.chunk.js"
+    "static/css/main.e9524a80.chunk.css",
+    "static/js/main.567129aa.chunk.js"
   ]
 }
