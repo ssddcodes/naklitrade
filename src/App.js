@@ -1,9 +1,21 @@
 import React from 'react';
-import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
-import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
 import "./App.css";
+import $ from 'jquery';
 
+$(function(){
+  // let mb = document.getElementById("geteml");
+  // mb.addEventListener("mouseover", showEm()); 
+  // mb.addEventListener("mouseleave", hideEm()); 
+});
+
+$.get(
+  "https://raw.githubusercontent.com/ssddcodes/naklitrade/main/email.txt",
+  {null: null},
+  function(data) {
+    document.getElementById("showml").innerHTML = data;
+  }
+);
 class App extends React.Component {
   render = () => {
     return (
@@ -19,7 +31,7 @@ class App extends React.Component {
             <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
             </a> */}
-            <a href="https://github.com/ssddcodes/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ssddcodes/" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
           </div>
@@ -29,16 +41,13 @@ class App extends React.Component {
             <h1>Get ready for the change.</h1>
             <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
           </div>
-          <a href="mailto:queries@nakli.trade">
             <div className="cta">Send us an email</div>
-          </a>
         </div>
         <div className="footer">
-          <span>You can email us at "queries@nakli.trade" or message me on telegram at <a className="underlined" href="https://t.me/ssdddev" target="_blank" rel="noopener noreferrer">@ssdddev</a></span>
+          <span>You can reach us on telegram in our group <a className="underlined" href="https://t.me/+r2-jeCENVtEzZTA1" target="_blank" rel="noopener noreferrer">"Nakli Trade" (click to join)</a> or email us on <a id='showml' className="underlined" href="" target="_blank" rel="noopener noreferrer"></a></span>
         </div>
       </div>
     );
   }
 }
-
 export default App;

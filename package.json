@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://nakli.trade/",
   "dependencies": {
+    "jquery": "^3.6.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.4.1"
